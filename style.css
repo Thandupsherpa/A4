@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  user-select: none;
+}
+
+body{
+    font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+a:hover{
+    color:rgb(0, 132, 222) ;
+}
+
+#logo {
+  color: #585757;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+#name {
+  color: rgb(0, 132, 222);
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  background-color: rgb(217, 241, 250);
+  font-weight: 500;
+  border-radius: 15px;
+  margin-right: 80px;
+}
+
+main {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.Left-div {
+  flex: 1;
+  margin-left: 70px;
+}
+
+.Left-div h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.Left-div p {
+  margin: 20px 0;
+  color: #666;
+  line-height: 1.5;
+}
+
+.Right-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Right-div img {
+  max-width: 100%;
+  height: auto;
+}
+
+#blue {
+  color: rgb(0, 132, 222);
+}
+
+button {
+  border: none;
+  background-color: rgb(0, 132, 222);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 18px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  border: 2px solid rgb(0, 132, 222);
+  color: rgb(0, 132, 222);
+}
+
+#gray{
+    color: #585757;
+
+}
